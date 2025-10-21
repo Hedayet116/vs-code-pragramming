@@ -1,0 +1,30 @@
+
+
+#kool{
+    height:200px;
+    width:300px;
+    background-color:red;
+    border:10px solid green;
+    padding:30px;
+    box-sizing:border-box;
+    break-after:page;
+}
+.node{
+    height:100px;
+    width:170px;
+    background-color:blue;
+    backdrop-filter:blur(20px)
+}
+@media print{
+
+   
+    #kool{
+        break-before:page;
+    }
+    
+}
+body {
+  color-scheme: dark;
+  background-color: #111;
+  color: white;
+}
