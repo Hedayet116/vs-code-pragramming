@@ -30,3 +30,4 @@ n.next()
 n.next()
 
 document.write(n.next().value)
+document.write('kooool')
